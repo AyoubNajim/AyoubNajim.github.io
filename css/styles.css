@@ -242,7 +242,7 @@ img {
 }
 
 .home_social {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .home_social-link {
@@ -254,6 +254,12 @@ img {
     padding: .4rem;
     margin: 0 var(--mb-1);
     transition: .3s;
+}
+
+.home_open {
+    font-size: var(--h2-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-5);
 }
 
 .home_social-link:hover {
@@ -409,6 +415,22 @@ img {
 
 .skills_solving {
     width: 70%;
+}
+
+.skills_aws {
+    width: 40%;
+}
+
+.skills_docker {
+    width: 40%;
+}
+
+.skills_cicd {
+    width: 50%;
+}
+
+.skills_security {
+    width: 40%;
 }
 
 
